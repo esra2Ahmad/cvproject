@@ -9,11 +9,12 @@ import Comma from './Components/Comma'
 import Test from './Components/Test'
 import Pricing from './Components/Pricing'
 import Contact from './Components/Contact'
+import Blog from './Components/Blog'
 const page = () => {
    
   return (
    
-    <div className=" bg-zinc-800  w-full  ">
+    <div className=" bg-zinc-800  w-full h-full  ">
       <Navbar />
       
       <div id="about">
@@ -39,6 +40,9 @@ const page = () => {
       </div>
       <div id="contact">
         <Contact/> 
+      </div>
+      <div id='blog'>
+        <Blog/>
       </div>
       </div>
       

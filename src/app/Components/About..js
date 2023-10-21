@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div className='w-[757px] h-[287px]'>
             <h1 className=' text-[55px] font-medium  text-white  space-y-1  mt-16'>
-            Hello, I’m<span className=' text-yellow-300 font-bold'> Pablo Gavi,</span> <br/> Front-end Developer and<br/> UX / UI Designer
+            Hello, I’m<span className=' text-lime-300 font-bold'> Pablo Gavi,</span> <br/> Front-end Developer and<br/> UX / UI Designer
 Based in<br/> California
             </h1>
             <div className='flex gap-10 w-[757px] h-[91px] mt-20 '>

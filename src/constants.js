@@ -78,3 +78,20 @@ export const testimelions=[
     
    
 ]
+export const blog=[
+    {
+        image:'/images/blog1.jpg',
+        date:' 6 , Aug 2022',
+        title:'12 unique examples of portfolio websites.',
+    },
+    {
+        image:'/images/blog2.jpg',
+        date:' 6 , Aug 2022',
+        title:'Dealing with spring allergy symptoms.',
+    },
+    {
+        image:'/images/blog3.jpg',
+        date:' 6 , Aug 2022',
+        title:'Best wireframe tools for web designers.',
+    },
+]
