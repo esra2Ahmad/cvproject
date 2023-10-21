@@ -12,7 +12,7 @@ const Services = () => {
                 <h6 className='text-center text-[14px] font-light uppercase text-white'>Our Services</h6>
                 <h3 className='text-center text-[38px] font-medium   uppercase text-white'>Turn Information<br/><span className=' text-lime-300'>Into  Aceationable</span> Insights </h3>
             </div>
-            <div className=' grid grid-cols-2'>
+            <div className=' flex flex-wrap gap-11  mx-14 my-16 '>
             {services.map((detail, index) => (
               <CardServices
                 key={index}
@@ -23,6 +23,7 @@ const Services = () => {
             ))}
             </div>
         </div>
+        <div className='w-full h-[1px] bg-zinc-800'></div>
     </div>
   )
 }

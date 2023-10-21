@@ -9,10 +9,10 @@ import Navlinks from './Navlinks'
 
 const About = () => {
   return (
-    <div className=' max-w-[1280px] h-[900px] mx-auto  bg-zinc-900'>
+    <div className=' max-w-[1280px] h-[900px] mx-auto  bg-zinc-900 '>
     <div className='  flex justify-between pl-3 pr-3'>
         <div className='w-[418px]   '>
-            <div className='w-[338.667px] h-[536.85px] border  border-slate-400 relative  top-20 left-10 rounded-[12px]'>
+            <div className='w-[338.667px] h-[536.85px] border  border-zinc-700 relative  top-20 left-10 rounded-[12px]'>
                 <div>
                 <Image src="/images/profile.jpg" width={306} height={306} alt="profile" className='mx-4 mt-4 '/>
                  <Image src="/images/icon1.png" width={40} height={40} alt="figma" className='border rounded-[12px] border-slate-400 relative top-[-280px]  left-[-4px] rotate-12 px-2 py-2'/>
