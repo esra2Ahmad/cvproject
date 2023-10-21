@@ -17,6 +17,7 @@ const PortfolioCard = (props) => {
         </div>
          <Link href='../pages/firstLayer'><GoArrowUpRight className='text-[38px] text-zinc-300'/></Link>
         </div>
+        
 
     </div> 
   )
