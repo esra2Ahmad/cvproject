@@ -25,12 +25,12 @@ const Contact = () => {
     });
   }
   return (
-    <div className=" max-w-[1280px] h-[1000px] mx-auto  bg-zinc-900 relative top-[-350px] ">
+    <div className=" max-w-[1240px] h-[1000px] mx-48  bg-zinc-900 relative top-[-649px] ">
      
-      <div className="flex gap-4 ">
+      <div className="flex  ">
         
         <div className="z-50 bg-transparent">
-          <h6 className="  tracking-widest text-[14px] uppercase font-light text-zinc-400 pt-1 mx-24">
+          <h6 className="  tracking-widest text-[14px] uppercase font-light text-zinc-400 pt-24 mx-24">
             Get In Touch
           </h6>
           <h2 className=" tracking-wider w-[433px] text-[50px] font-bold text-zinc-200 pt-6 mx-24">
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         <form
           onSubmit={handleSubmit}
-          className=" flex flex-col gap-4 items-start mt-24 z-50"
+          className=" flex flex-col gap-4 items-start mt-24  relative left-[-60px] z-50"
         >
           <div className="flex flex-row  gap-6 pt-2  ">
             <input

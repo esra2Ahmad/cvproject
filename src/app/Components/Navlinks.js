@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Navlinks = () => {
   return (
-    <div className='w-[600px] list-none flex  justify-between relative top-[-50px] left-[640px] cursor-pointer'>
+    <div className='w-[600px] list-none flex  justify-between relative top-[-70px] left-[490px] cursor-pointer'>
         
             <li className='text-white text-[14px] '><Link href="/about">Home</Link></li>
             <li className='text-white text-[14px]'><Link href="#services">Services</Link></li>

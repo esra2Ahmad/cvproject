@@ -6,8 +6,18 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '100%': '100%',
+      '200%': '200%',
+    },
     
     extend: {
+      fontFamily: {
+        lexend: ["sora", "sans-serif"],
+        },
       boxShadow: {
 
       },

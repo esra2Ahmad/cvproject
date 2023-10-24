@@ -326,7 +326,7 @@ const page = () => {
             className=" bg-transparent pl-4 mx-52  w-[820px] h-[155px] border border-zinc-800 rounded-[2px] "
           />
 
-          <button className=" bg-transparent w-[820px] mx-52  h-[50px] text-zinc-400  font-semibold text-[16px] border border-zinc-800 mt-[18px] text-center pl-4 hover:bg-lime-300">
+          <button className=" bg-transparent w-[820px] mx-52  h-[50px] text-zinc-400  font-semibold text-[16px] border border-zinc-800 mt-[18px] text-center pl-4 bg-[length:200%_100%] bg-right-bottom  duration-1000 transition-[height] bg-gradient-to-rfrom-lime-400 to-lime-300 hover:bg-left-bottom">
             {" "}
             Send Message
           </button>
