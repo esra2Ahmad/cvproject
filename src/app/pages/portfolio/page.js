@@ -7,8 +7,8 @@ import PagePort from '@/app/Components/PagePort'
 
 const page = () => {
   return (
-    <div className=' bg-zinc-800  w-full  h-[2800px]'>
-      <div className='pt-8 mx-24 flex  gap-[550px] items-center'>
+    <div className=' w-full  h-[2800px]'>
+      <div className='pt-8 mx-48 flex  gap-[410px] items-center'>
       <Image src="/images/logo-light.png" alt="logo"  height={50} width={100}></Image>
       <div className='w-[600px] list-none flex  justify-between  cursor-pointer'>
         
@@ -24,10 +24,10 @@ const page = () => {
 </div>
 
       </div>
-      <div className=' max-w-[1280px] bg-zinc-900 h-[2500px] mx-24 rounded-[12px]  mt-20'>
+      <div className=' max-w-[1240px] bg-zinc-900 h-[2500px] mx-48 rounded-[12px]  mt-20'>
         <h3 className="text-[14px] uppercase font-light text-zinc-300  text-center pt-11 "> our porttfolio</h3>
         <h2 className="text-[38px] uppercase font-medium text-zinc-200  text-center mt-4">Look at my <span className='text-lime-300'>Portfolio </span></h2>
-<div className=' flex flex-wrap gap-11 mt-24 mx-24'>
+<div className=' flex flex-wrap gap-4 mx-12 mt-24 '>
             {ourportfolio.map((detail, index) => (
               <PagePort
                 key={index}
@@ -38,7 +38,7 @@ const page = () => {
               />
             ))}
             </div>
-            <div className=' flex flex-wrap gap-11 mt-24 mx-24'>
+            <div className=' flex flex-wrap gap-4 mt-24 mx-12'>
             {ourportfolio.map((detail, index) => (
               <PagePort
                 key={index}

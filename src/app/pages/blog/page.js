@@ -29,8 +29,8 @@ const page = () => {
     });
   }
   return (
-    <div className=" bg-zinc-800  w-full  h-[5800px]">
-      <div className="pt-8 mx-24 flex  gap-[550px] items-center">
+    <div className="   w-full  h-[5800px]">
+      <div className="pt-8 mx-48 flex  gap-[420px] items-center">
         <Image
           src="/images/logo-light.png"
           alt="logo"
@@ -61,7 +61,7 @@ const page = () => {
           </li>
         </div>
       </div>
-      <div className=" max-w-[1280px] bg-zinc-900 h-[5400px] mx-24 rounded-[12px]  mt-20">
+      <div className=" max-w-[1240px] bg-zinc-900 h-[6400px] mx-48 rounded-[12px]  mt-20">
         <div className="flex justify-center gap-4 pt-24">
           <div className=" w-[145px] h-[40px] rounded-[40px] border  bg-zinc-800 border-zinc-700 ">
             <p className="text-center mt-[6px] text-[15px] text-zinc-200">
@@ -87,9 +87,9 @@ const page = () => {
           width={976}
           height={540}
           alt="blog"
-          className=" mt-24 mx-32"
+          className=" mt-24 mx-24"
         />
-        <div className="flex items-center justify-center w-[900px] mx-40">
+        <div className="flex items-center justify-center w-[900px] mx-32">
           <div className="text-lime-300 font-bold text-[50px] h-[50px]">A</div>
           <p className="mt-8 mx-2 tracking-wider text-[17px] font-light text-zinc-400 leading-[25px]">
             new report said earlier this week that Apple is working on a brand
@@ -122,8 +122,8 @@ const page = () => {
           an 11-inch MacBook Air, but the company <br />
           discontinued that model in 2017.
         </p>
-        <div className="border border-zinc-800  bg-transparent mx-52 mt-16 w-[800px] h-[185px]">
-          <div className=" flex gap-6 mx-16 mt-10 items-center">
+        <div className="border border-zinc-800  bg-transparent mx-48 mt-16 w-[800px] h-[185px]">
+          <div className=" flex gap-6 mx-24 mt-10 items-center">
             <div>
               <Image
                 src="/images/quote.png"
@@ -334,8 +334,8 @@ const page = () => {
         <h2 className=" text-[40px] font-medium text-zinc-100 tracking-wider mx-24 mt-14 leading-[20px]"> 
 Related Posts
 </h2>
-      <div className="w-[1200px] h-[1px] bg-zinc-800 mx-10 mt-8"></div>  
-      <div className=' flex   justify-between mt-11 mx-24  gap-16'>
+      <div className="w-[1080px] h-[1px] bg-zinc-800 mx-10 mt-8"></div>  
+      <div className=' flex   justify-between mt-11 mx-11  gap-16'>
         {blog.map((detail, index) => (
               <NewBlog
                 key={index}
