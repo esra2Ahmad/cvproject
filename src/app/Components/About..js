@@ -20,8 +20,8 @@ const About = () => {
                 <Image src="/images/icon4.png" width={40} height={40} alt="figma" className=' relative top-[-150px]  left-[40px]  -rotate-12 px-2 py-2'/>
                 </div>
                 <div className='relative top-[-100px] flex flex-col gap-4'>
-                <h1 className='text-center text-[24px] font-medium leading-[22px] text-white'>Paplo Gavi</h1>
-                <h3 className='text-center text-[13px] font-light leading-7 text-white '>AVILABLE FOR FREE LANCE</h3>
+                <h1 className='text-center text-[24px] font-medium leading-[22px] text-white font-Sora'>Pablo Gavi</h1>
+                <h3 className='text-center text-[13px] font-light leading-7 text-white font-Popins '>AVILABLE FOR FREE LANCE</h3>
                 </div>
                 <div className='flex  gap-2 w-33% pl-4 pr-4 relative top-[-70px] items-center justify-center'>
             <div className='w-[45px] h-[45px] rounded-[5px]  text-white border bottom-2 border-slate-400 hover:bg-white hover:text-black transition-all duration-[0.4s] ease-linear delay-0'>
@@ -40,19 +40,19 @@ const About = () => {
         </div>
             </div>
         </div>
-        <div className='w-[757px] h-[287px] mx-16'>
-            <h1 className=' text-[55px] font-medium  text-white  space-y-1  mt-16 tracking-normal font-sora'>
+        <div className='w-[757px] h-[287px] pl-20 pt-4'>
+            <h1 className=' text-[48px] font-medium  text-white  space-y-1  mt-16 font-Sora'>
             Hello, I’m<span className=' text-lime-300 font-medium'> Pablo Gavi,</span> <br/> Front-end Developer and<br/> UX / UI Designer
 Based in<br/> California
             </h1>
             <div className='flex gap-10 w-[757px] h-[91px] mt-20 '>
                 <div className='flex justify-center items-center gap-2'>
                 <h2 className='text-[70px] font-medium leading-[20px] text-white'>14</h2>
-                <p className='text-[15px] font-light leading-[25px] text-white font-popins  '> Years <br/>Of Exprience</p>
+                <p className='text-[15px] font-light leading-[25px] text-white font-Popins  '> Years <br/>Of Exprience</p>
                 </div>
                 <div className='flex  items-center gap-3'>
                 <h2 className='text-[70px] font-medium leading-[20px] text-white'>6K</h2>
-                <p className='text-[15px] font-light leading-[25px] text-white  font-popins '> Clients <br/>WorldWide</p>
+                <p className='text-[15px] font-light leading-[25px] text-white  font-Popins '> Clients <br/>WorldWide</p>
                 </div>
                 
                 <bottun className="w-[171px]    h-[50px] border border-white text-white text-center pt-3 mt-5   hover:bg-white hover:text-black transition-all duration-[0.4s] ease-linear delay-0">Download c.v</bottun>

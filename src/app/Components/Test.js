@@ -24,12 +24,12 @@ const Test = () => {
       className="
   h-[890px]  mx-48 bg-zinc-900  relative top-[-600px] z-40  "
     >
-      <div className="relative  left-[55px] bg-zinc-800 rounded-bl-3xl  w-[1100px] rounded-tl-3xl">
-        <div className="  pt-24 mx-14">
-          <h6 className="text-[18px] font-medium  text-zinc-300 uppercase">
+      <div className="relative  left-[55px] bg-zinc-800 rounded-bl-3xl  w-[1095px] rounded-tl-3xl">
+        <div className="  pt-24 mx-24">
+          <h6 className="text-[18px] font-medium  text-zinc-300 uppercase font-Sora">
             Testimonials
           </h6>
-          <h3 className="text-[38px] font-medium  text-zinc-100">
+          <h3 className="text-[38px] font-medium mt-4 text-zinc-200 font-Sora leading-11">
             Trusted by <br />
             <span className="text-lime-300">Hundered Clients</span>
           </h3>
@@ -45,13 +45,13 @@ const Test = () => {
                 <Testimilions key={index} qout={product.qout} />
               ))}
             </div>
-            <div className=" inline-flex justify-center items-center w-[1280px] h-[600px]  ">
+            <div className=" inline-flex items-center w-[1280px] h-[600px] mx-14 ">
               {testimelions.map((product, index) => (
                 <Testimilions key={index} qout={product.qout} />
               ))}
             </div>
           </div>
-          <div className="  flex  gap-4   relative left-[700px] top-[-40px]">
+          <div className="  flex  gap-4   relative left-[900px] top-[-40px]">
             <button
               className="h-12  text-zinc-400  text-[30px] px-2 w-12  z-40  rounded-full bg-zinc-800 border border-zinc-700 duration-300 "
               onClick={() => {

@@ -5,7 +5,7 @@ import {BsStarFill} from 'react-icons/bs'
 
 const Testimilions = (props) => {
   return (
-    <div className=' flex flex-row mx-12   '>
+    <div className=' flex flex-row mx-24   relative top-[-40px] '>
 <div>
         <Image src={props.qout} width={90} height={90} alt='qout'/>
 </div>
@@ -20,8 +20,8 @@ const Testimilions = (props) => {
         </div>
         <p className=' text-zinc-200'>(71 Rieviews)</p>
         </div>
-        <p className=' w-[555]px h-[208px] text-[28px] font-light text-zinc-200 mt-10'> We have purchased well into the thousands of items,<br/> but this is without doubt one of the best we’ve have <br/>been lucky enough to work on, the attention to detail<br/> apparent throughout, and the delivery is impressively<br/> intuitive </p>
-        <div className='flex gap-8  items-center mt-10'>
+        <p className=' w-[555]px h-[208px] text-[20px] font-Popins font-light text-zinc-200 mt-10'> We have purchased well into the thousands of items,<br/> but this is without doubt one of the best we’ve have <br/>been lucky enough to work on, the attention to detail<br/> apparent throughout, and the delivery is impressively<br/> intuitive </p>
+        <div className='flex gap-8  items-center '>
             <Image src='/images/u1.jpg' width={60} height={60} alt="" className='rounded-full'/>
             
             <div>

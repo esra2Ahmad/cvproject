@@ -13,14 +13,17 @@ module.exports = {
       '100%': '100%',
       '200%': '200%',
     },
+    fontFamily:{
+     
+
+'Popins': ['Poppins', 'sans-serif'],
+'Sora': ['Sora', 'sans-serif'],
+
+    },
     
     extend: {
-      fontFamily: {
-        lexend: ["sora", "sans-serif"],
-        },
-      boxShadow: {
-
-      },
+     
+    
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

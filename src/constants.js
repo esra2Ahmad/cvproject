@@ -30,14 +30,14 @@ export  const skills=[
     },
     {
         number:'01',
-        year:'2019',
+        year:'2020',
         image:'/images/o2.png',
         title:'02x Designer Award',
         name:'Winner',
     },
     {
         number:'01',
-        year:'2019',
+        year:'2021',
         image:'/images/o3.png',
         title:'02x Designer Award',
         name:'Ruuners Up',

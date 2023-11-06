@@ -23,11 +23,11 @@ const Skilles = () => {
     <div className=" max-w-[1240px] relative top-[-250px] mx-48  bg-zinc-900 ">
       <div className="flex gap-11  py-11    items-center mx-16">
         <div className="w-[243px] h-[239px] space-y-3 flex flex-col justify-center ">
-          <h6 className="text-[14px] uppercase font-light tracking-normal text-zinc-500">
+          <h6 className="text-[14px] uppercase font-light tracking-normal text-zinc-500  font-Sora">
             {" "}
             Our Skills
           </h6>
-          <p className="text-[32px] uppercase font-medium tracking-normal text-zinc-100">
+          <p className="text-[32px] uppercase font-medium tracking-normal text-zinc-100 font-Sora">
             <span className="text-lime-300">Awards</span> & Recognitions
           </p>
         </div>
@@ -44,7 +44,7 @@ const Skilles = () => {
                 alt="skill1"
                 className=" "
               />
-              <p className="text-[18px]  font-normal tracking-normal text-zinc-300 ml-6 hover:select-all">
+              <p className="text-[18px] font-Sora font-normal tracking-normal text-zinc-300 ml-6 hover:select-all">
                 UI / UX Design
               </p>
             </div>
@@ -64,7 +64,7 @@ const Skilles = () => {
                 alt="skill1"
                 className=" "
               />
-              <p className="text-[18px]  font-normal tracking-normal text-zinc-300 ml-6 hover:select-all">
+              <p className="text-[18px] font-Sora font-normal tracking-normal text-zinc-300 ml-6 hover:select-all">
                 Word Press
               </p>
             </div>
@@ -107,7 +107,7 @@ const Skilles = () => {
                 className=" "
               />
               <p className="text-[18px]  font-normal tracking-normal text-zinc-300 ml-6 hover:select-all">
-                WordPress
+              Graphic Designe
               </p>
             </div>
             <div className=" h-[2px] w-[300px] ml-5 bg-zinc-800 relative top-4  ">
@@ -122,7 +122,7 @@ const Skilles = () => {
           className="whitespace-nowrap  duration-1000"
           style={{ transform: `translate(-${activeIndex * 120}%)` }}
         >
-          <div className="  inline-flex w-[1240px]    mt-11  mx-16  gap-11">
+          <div className="  inline-flex w-[1240px]    mt-11  mx-16  gap-14">
             {skills.map((detail, index) => (
               <SkillsCard
                 key={index}
@@ -134,7 +134,7 @@ const Skilles = () => {
               />
             ))}
           </div>
-          <div className="  inline-flex w-[1240px]    mt-11  mx-16  gap-11">
+          <div className="  inline-flex w-[1240px]    mt-11  mx-16  gap-14">
             {skills.map((detail, index) => (
               <SkillsCard
                 key={index}
