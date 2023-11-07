@@ -25,20 +25,20 @@ const Contact = () => {
     });
   }
   return (
-    <div className=" max-w-[1240px] h-[1000px] mx-48  bg-zinc-900 relative top-[-649px] ">
+    <div className=" w-[1240px] h-[650px] mx-[139px] bg-zinc-900 ">
      
       <div className="flex  ">
         
-        <div className="z-50 bg-transparent">
-          <h6 className="  tracking-widest text-[14px] uppercase font-light text-zinc-400 pt-24 mx-24">
+        <div className="z-50 bg-transparent ml-[-20px]">
+          <h6 className="  tracking-widest text-[14px] uppercase font-Sora font-light text-zinc-400 pt-24 mx-24">
             Get In Touch
           </h6>
-          <h2 className=" tracking-wider w-[433px] text-[50px] font-bold text-zinc-200 pt-6 mx-24">
+          <h2 className=" tracking-wider w-[433px] text-[50px] font-bold text-zinc-200 pt-6 mx-24 font-Sora">
             {" "}
             Lets make your
             <br /> brand brilliant!
           </h2>
-          <p className="  tracking-wider w-[433px] text-[15px] font-light text-zinc-300 pt-6 mx-24 leading-[30px]">
+          <p className="  tracking-wider w-[433px] text-[15px]  font-Popins font-light text-zinc-300 pt-6 mx-24 leading-[30px]">
             If you would like to work with us or just want to get in <br />
             touch, we’d love to hear from you!
           </p>
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         <form
           onSubmit={handleSubmit}
-          className=" flex flex-col gap-4 items-start mt-24  relative left-[-60px] z-50"
+          className=" flex flex-col gap-4 items-start mt-24   z-50"
         >
           <div className="flex flex-row  gap-6 pt-2  ">
             <input
@@ -72,7 +72,7 @@ const Contact = () => {
               onChange={handleChange}
               name=" yourname"
               value={formData.yourname}
-              className=" w-[255px] h-[52px] border bg-transparent border-zinc-800 rounded-[2px]"
+              className=" w-[275px] h-[52px] border bg-transparent border-zinc-800 rounded-[2px]"
             />
             <input
               type="email"
@@ -80,7 +80,7 @@ const Contact = () => {
               onChange={handleChange}
               name="email"
               value={formData.email}
-              className=" w-[255px] h-[52px] border border-zinc-800 bg-transparent rounded-[2px]"
+              className=" w-[275px] h-[52px] border border-zinc-800 bg-transparent rounded-[2px]"
             />
           </div>
           <input
@@ -89,7 +89,7 @@ const Contact = () => {
             onChange={handleChange}
             name=" subject"
             value={formData.email}
-            className=" w-[535px] h-[50px] border border-zinc-800  bg-transparent rounded-[2px] "
+            className=" w-[575px] h-[50px] border border-zinc-800  bg-transparent rounded-[2px] "
           />
           <input
             type=" textarea"
@@ -97,10 +97,10 @@ const Contact = () => {
             onChange={handleChange}
             name=" textarea"
             value={formData.email}
-            className=" bg-transparent pl-4   w-[535px] h-[155px] border border-zinc-800 rounded-[2px] "
+            className=" bg-transparent pl-4   w-[575px] h-[155px] border border-zinc-800 rounded-[2px] "
           />
 
-          <button className=" bg-transparent w-[535px]  h-[50px] text-zinc-400  font-semibold text-[16px] border border-zinc-800 mt-[18px] text-center pl-4 hover:bg-lime-300">
+          <button className=" bg-transparent w-[575px]  h-[50px] text-zinc-400  font-semibold text-[16px] border border-zinc-800 mt-[18px] text-center pl-4 hover:bg-lime-300">
             {" "}
             Send Message
           </button>

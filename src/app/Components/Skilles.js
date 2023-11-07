@@ -20,8 +20,8 @@ const Skilles = () => {
     setActiveIndex(newIndex);
   };
   return (
-    <div className=" max-w-[1240px] relative top-[-250px] mx-48  bg-zinc-900 ">
-      <div className="flex gap-11  py-11    items-center mx-16">
+    <div className="w-[1240px]  mx-[139px] pt-11 bg-zinc-900 my-0">
+      <div className="flex gap-6  pt-11    items-center ml-14">
         <div className="w-[243px] h-[239px] space-y-3 flex flex-col justify-center ">
           <h6 className="text-[14px] uppercase font-light tracking-normal text-zinc-500  font-Sora">
             {" "}
@@ -31,7 +31,7 @@ const Skilles = () => {
             <span className="text-lime-300">Awards</span> & Recognitions
           </p>
         </div>
-        <div className="w-[343px] h-[239px] flex flex-col gap-10 ">
+        <div className="w-[343px] h-[239px] flex flex-col gap-10 ml-40 ">
           <div className="w-[343px] h-[136px] border border-zinc-800 rounded-[12px]   ">
             <div className="w-[50px] h-[28px] rounded-[28px] border border-zinc-800   ml-[270px] mt-3">
               <p className="text-center text-zinc-200">95%</p>
@@ -120,9 +120,9 @@ const Skilles = () => {
       <div className=" h-full overflow-hidden flex flex-col   relative ">
         <div
           className="whitespace-nowrap  duration-1000"
-          style={{ transform: `translate(-${activeIndex * 120}%)` }}
+          style={{ transform: `translate(-${activeIndex * 100}%)` }}
         >
-          <div className="  inline-flex w-[1240px]    mt-11  mx-16  gap-14">
+          <div className="  inline-flex   mt-11  mx-14  gap-14">
             {skills.map((detail, index) => (
               <SkillsCard
                 key={index}
@@ -134,7 +134,7 @@ const Skilles = () => {
               />
             ))}
           </div>
-          <div className="  inline-flex w-[1240px]    mt-11  mx-16  gap-14">
+          <div className="  inline-flex    mt-11  mx-14  gap-14">
             {skills.map((detail, index) => (
               <SkillsCard
                 key={index}
@@ -148,7 +148,7 @@ const Skilles = () => {
           </div>
         </div>
       </div>
-      <div className="  flex  gap-4   relative left-[1000px] mt-11">
+      <div className="  flex  gap-4 ml-[1100px] mt-11">
         <button
           className="h-12  text-zinc-400  text-[30px] px-2 w-12  z-40  rounded-full bg-zinc-800 border border-zinc-700 duration-300 "
           onClick={() => {

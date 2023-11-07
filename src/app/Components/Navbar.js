@@ -8,7 +8,7 @@ import { BiBasketball } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="flex  justify-between py-8 max-w-[1240px]  mx-48 gap-11  z-50 ">
+    <div className="flex  justify-between py-8 w-[1240px]  mx-[139px] gap-11  z-50 ">
       <Image
         src="/images/logo-light.png"
         alt="logo"

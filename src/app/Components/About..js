@@ -9,7 +9,7 @@ import Navlinks from './Navlinks'
 
 const About = () => {
   return (
-    <div className=' max-w-[1240px]  h-screen mx-48 bg-zinc-900 rounded-[12px]'>
+    <div className=' w-[1240px]  h-[650px]  mx-[139px] bg-zinc-900 rounded-[12px] m-0'>
     <div className='  flex justify-between pl-3 pr-3'>
         <div className='w-[418px]   '>
             <div className='w-[338.667px] h-[536.85px] border  border-zinc-700 relative  top-20 left-10 rounded-[12px]'>
@@ -40,8 +40,8 @@ const About = () => {
         </div>
             </div>
         </div>
-        <div className='w-[757px] h-[287px] pl-20 pt-4'>
-            <h1 className=' text-[48px] font-medium  text-white  space-y-1  mt-16 font-Sora'>
+        <div className='w-[857px] h-[287px] pl-24 pt-4'>
+            <h1 className=' text-[55px] font-medium  text-white  space-y-1  mt-16 font-Sora'>
             Hello, I’m<span className=' text-lime-300 font-medium'> Pablo Gavi,</span> <br/> Front-end Developer and<br/> UX / UI Designer
 Based in<br/> California
             </h1>

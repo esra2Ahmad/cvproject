@@ -30,7 +30,7 @@ const page = () => {
       <div>
         <OurPortfolio/>
       </div>
-      <Comma/>
+    
       <div>
         <Test/>
       </div>
@@ -42,6 +42,7 @@ const page = () => {
       </div>
       <div>
         <Blog/>
+        <p className='text-white text-center mt-11'>© 2023 Gavi is Proudly Powered <span className='text-lime-300 underline'>by Ui-ThemeZ </span></p>
 
       </div>
     </div>

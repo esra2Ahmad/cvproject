@@ -7,8 +7,8 @@ import {GoArrowUpRight} from 'react-icons/go'
 const PortfolioCard = (props) => {
   return (
     <div>
-        <div className='w-[510px] h-[395px] hover:border hover:border-lime-200  rounded-[12px]   '>
-       <Image src={props.image} sizes='100vw' height={0} width={0} className='  w-[510px] h-[393px] rounded-[12px]' alt=""/>
+        <div className='w-[540px] h-[420px] hover:border hover:border-lime-200  rounded-[12px]   '>
+       <Image src={props.image} sizes='100vw' height={0} width={0} className='  w-[530px] h-[410px] ml-[4px] mt-[4px] rounded-[12px]' alt=""/>
         </div>
         <div className='flex justify-between items-center mx-4'>
         <div>

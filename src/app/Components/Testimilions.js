@@ -5,7 +5,7 @@ import {BsStarFill} from 'react-icons/bs'
 
 const Testimilions = (props) => {
   return (
-    <div className=' flex flex-row mx-24   relative top-[-40px] '>
+    <div className=' flex flex-row mx-24   '>
 <div>
         <Image src={props.qout} width={90} height={90} alt='qout'/>
 </div>
