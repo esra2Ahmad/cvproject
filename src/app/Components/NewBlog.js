@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const NewBlog = (props) => {
   return (
-    <div className='border border-zinc-800  w-[316px] h-[500px] bg-transparent'>
+    <div className='border border-zinc-800  w-[316px] h-[500px] bg-transparent mb-11'>
         <Image src={props.image} width={315} height={252} alt="blog"/>
         <div className='w-[295px] h-[217px] bg-zinc-800 rounded-[12px] mx-[10px]  relative top-[-30px]'>
             <div className=' w-[145px] h-[30px] rounded-[40px] border  border-zinc-700  relative top-[40px] left-[40px] '>

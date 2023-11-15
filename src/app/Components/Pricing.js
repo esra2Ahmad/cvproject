@@ -3,7 +3,7 @@ import { BsCheck } from "react-icons/bs";
 
 const Pricing = () => {
   return (
-    <div className=" w-[1240px] h-[1000px] mx-[139px] bg-zinc-900  relative  rounded-tr-3xl">
+    <div className=" w-[1240px] h-[1000px] mx-[149px] bg-zinc-900  relative  rounded-tr-3xl">
       <h6 className="text-center text-[14px] uppercase font-normal text-zinc-400 pt-24 font-sora tracking-[2px]">
         {" "}
         Best Pricing
@@ -113,7 +113,7 @@ const Pricing = () => {
               <div className="flex gap-2 items-center mx-8">
                 <BsCheck className="text-lime-300 text-[30px]" />
                 <p className="text-[14px] text-white font-medium font-Sora first-letter:uppercase ">
-                Your project alway be priority
+                  Your project alway be priority
                 </p>
               </div>
               <bottun className="w-[171px] mx-20 rounded-[12px] text-[14px] font-Sora uppercase  h-[50px] border border-white text-white text-center pt-3 mt-5   hover:bg-white hover:text-black transition-all duration-[0.4s] ease-linear delay-0">
@@ -122,7 +122,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-       
+
         <div className="ml-[-120px]">
           <div className="flex relative left-[64px] mt-24">
             <div className="w-[82px] h-[60px] bg-zinc-800 ml-6"></div>
@@ -175,9 +175,6 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        
-
-        
       </div>
       <div className="w-full h-[1px] bg-zinc-800 mt-24"></div>
     </div>

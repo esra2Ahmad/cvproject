@@ -22,7 +22,7 @@ const Test = () => {
   return (
     <div
       className="
-  h-[730px]  mx-[139px] w-[1240px] bg-zinc-900  z-40  "
+  h-[730px]  mx-[149px] w-[1240px] bg-zinc-900  z-40  "
     >
       <div className="w-[1170px] h-[730px] ml-[75px] bg-zinc-800 rounded-bl-3xl  rounded-tl-3xl">
         <div className="  pt-20 mx-24">
@@ -34,7 +34,7 @@ const Test = () => {
             <span className="text-lime-300">Hundered Clients</span>
           </h3>
         </div>
-        <Comma/>
+        <Comma />
         <div className=" h-full overflow-hidden flex flex-col   relative ">
           <div
             className="whitespace-nowrap  duration-1000"

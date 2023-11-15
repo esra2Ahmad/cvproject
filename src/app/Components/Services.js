@@ -7,7 +7,7 @@ import Navlinks from './Navlinks'
 
 const Services = () => {
   return (
-    <div  className='w-[1240px]  mx-[139px]  bg-zinc-900  rounded-tl-[12px] mt-[-10px]'>
+    <div  className='w-[1240px]  mx-[149px]  bg-zinc-900  rounded-tl-[12px] mt-[-10px]'>
       
         <div>
             <div className='flex flex-col gap-8 pt-16'>

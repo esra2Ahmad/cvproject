@@ -9,7 +9,7 @@ import Navlinks from './Navlinks'
 
 const About = () => {
   return (
-    <div className=' w-[1240px]  h-[650px]  mx-[139px] bg-zinc-900 rounded-[12px] m-0'>
+    <div className=' w-[1240px]  h-[650px]  mx-[149px] bg-zinc-900 rounded-[12px] m-0'>
     <div className='  flex justify-between pl-3 pr-3'>
         <div className='w-[418px]   '>
             <div className='w-[338.667px] h-[536.85px] border  border-zinc-700 relative  top-20 left-10 rounded-[12px]'>

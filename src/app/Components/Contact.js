@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
-import {BsSendFill} from 'react-icons/bs'
+import { BsSendFill } from "react-icons/bs";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -25,10 +25,8 @@ const Contact = () => {
     });
   }
   return (
-    <div className=" w-[1240px] h-[650px] mx-[139px] bg-zinc-900 ">
-     
+    <div className=" w-[1240px] h-[650px] mx-[149px] bg-zinc-900 ">
       <div className="flex  ">
-        
         <div className="z-50 bg-transparent ml-[-20px]">
           <h6 className="  tracking-widest text-[14px] uppercase font-Sora font-light text-zinc-400 pt-24 mx-24">
             Get In Touch

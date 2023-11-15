@@ -8,12 +8,15 @@ import {BsPerson} from 'react-icons/bs'
 import {BsGlobe}  from 'react-icons/bs'
 import {BsArrowLeft} from 'react-icons/bs'
 import {BsArrowRight} from 'react-icons/bs'
+import Background from "@/app/Components/Background";
 
 
 
 const page = () => {
   return (
+    
     <div className=" bg-zinc-800  w-full  h-[2800px]">
+      <Background>
       <div className="pt-8 mx-24 flex  gap-[550px] items-center">
         <Image
           src="/images/logo-light.png"
@@ -168,6 +171,7 @@ const page = () => {
         © 2023 Gavi is Proudly Powered{" "}
         <span className="text-lime-300 underline">by Ui-ThemeZ </span>
       </p>
+      </Background>
     </div>
   );
 };

@@ -20,7 +20,7 @@ const Skilles = () => {
     setActiveIndex(newIndex);
   };
   return (
-    <div className="w-[1240px]  mx-[139px] pt-11 bg-zinc-900 my-0">
+    <div className="w-[1240px]  mx-[149px] pt-11 bg-zinc-900 my-0">
       <div className="flex gap-6  pt-11    items-center ml-14">
         <div className="w-[243px] h-[239px] space-y-3 flex flex-col justify-center ">
           <h6 className="text-[14px] uppercase font-light tracking-normal text-zinc-500  font-Sora">
